@@ -1,0 +1,181 @@
+/* styles/Home.css */
+
+main {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  position: relative;
+  height: 400px;
+  margin-bottom: 20px;
+  padding: 100px 20px;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-content:hover{
+  color: #ffffff;
+  font-size: large;
+}
+
+.hero-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero-content .cta-button {
+  background-color: #34da89;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+  transition: background-color 0.3s;
+}
+
+.hero-content .cta-button:hover {
+  background-color: #34da89;
+}
+
+.about-section, .services-section, .testimonials-section, .faq-section, .stats-section, .newsletter-section, .contact-section {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  margin: 20px 0;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2, .services-section h2, .testimonials-section h2, .faq-section h2, .stats-section h2, .newsletter-section h2, .contact-section h2 {
+  color: #34da89;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0;
+  margin: 10px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin: 10px 0;
+}
+
+.card-content p {
+  color: #555;
+}
+
+.contact-section p {
+  text-align: center;
+}
+
+.testimonials-section .testimonial {
+  background: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.faq-section .faq {
+  margin: 10px 0;
+}
+
+.faq-section .faq h3 {
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.faq-section .faq h3:hover {
+  color: #34da89;
+}
+
+.stats-section .stat {
+  text-align: center;
+  margin: 10px;
+}
+
+.stats-section .stat h3 {
+  font-size: 2em;
+  color: #34da89;
+}
+
+.stats-section .stat p {
+  color: #555;
+}
+
+.newsletter-section {
+  text-align: center;
+}
+
+.newsletter-section .newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.newsletter-section .newsletter-form input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.newsletter-section .newsletter-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #34da89;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter-section .newsletter-form button:hover {
+  background-color: #34da89;
+}

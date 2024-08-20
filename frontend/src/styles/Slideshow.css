@@ -1,0 +1,25 @@
+/* styles/Slideshow.css */
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 125%;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: -50px;
+  }
+  
+  
+  .slideshow-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slideshow-image.active {
+    opacity: 1;
+  }
+  
